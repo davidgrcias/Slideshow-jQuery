@@ -1,0 +1,42 @@
+.slide-wrapper{
+  text-align: center;
+  width: 1000px;
+  margin: auto;
+  padding: 100px 0;
+}
+
+.slides{
+  padding: 0;
+}
+
+.slide{
+  display: none;
+}
+
+.active{
+  display: block;
+}
+
+.slide img{
+  width: 500px;
+  border: 1px solid black;
+}
+
+.index-btn-wrapper{
+  font-size: 16px;
+  margin-top: 20px;
+}
+
+.index-btn{
+  display: inline-block;
+  color: #fff;
+  background-color: #007bff;
+  width: 40px;
+  padding: 6px 0;
+  margin: 8px;
+  cursor: pointer;
+}
+
+.index-btn:hover{
+  background-color: #0069d9;
+}
